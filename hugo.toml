@@ -1,4 +1,4 @@
-baseURL = '117.72.145.20'
+baseURL = 'http://117.72.145.20'
 locale = 'en-us'
 title = 'dalewang'
 theme = "PaperMod"

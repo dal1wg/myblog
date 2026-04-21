@@ -1,0 +1,36 @@
+name: Deploy My Blog to Server
+
+on:
+  push:
+    branches:
+      - master            # 当你推送 main 分支时触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code and submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: true   # 拉取主题子模块（PaperMod）
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.160.1"   # 与本地版本保持一致
+          extended: true            # 因为你的版本是 extended
+
+      - name: Build static files
+        run: hugo --minify
+
+      - name: Deploy to VPS via SCP
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          port: ${{ secrets.SERVER_PORT }}
+          source: "public/*"
+          target: "/var/www/html"   # Nginx 网站根目录
+          strip_components: 1

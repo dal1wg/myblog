@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code and submodules
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: true   # 拉取主题子模块（PaperMod）
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v4
         with:
           hugo-version: "0.160.1"   # 与本地版本保持一致
           extended: true            # 因为你的版本是 extended

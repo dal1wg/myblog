@@ -1,25 +1,28 @@
 name: Deploy My Blog to Server
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # 强制使用 Node.js 24，消除告警
+
 on:
   push:
     branches:
-      - master            # 当你推送 main 分支时触发
+      - master            # 监听 master 分支（与你本地分支一致）
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code and submodules
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4        # v4 稳定且支持子模块
         with:
-          submodules: true   # 拉取主题子模块（PaperMod）
+          submodules: true               # 拉取主题子模块（PaperMod）
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v4
+        uses: peaceiris/actions-hugo@v3  # 最高版本为 v3，没有 v4
         with:
-          hugo-version: "0.160.1"   # 与本地版本保持一致
-          extended: true            # 因为你的版本是 extended
+          hugo-version: "0.160.1"        # 与你本地版本一致
+          extended: true                 # 因为你使用的是 extended 版本
 
       - name: Build static files
         run: hugo --minify
@@ -32,5 +35,5 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           source: "public/*"
-          target: "/var/www/html"   # Nginx 网站根目录
+          target: "/var/www/html"        # Nginx 网站根目录
           strip_components: 1

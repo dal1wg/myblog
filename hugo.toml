@@ -2,3 +2,35 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'dalewang'
 theme = "PaperMod"
+defaultContentLanguage = "zh"
+
+[params]
+  disableSpecial1stPost = true
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "博客"
+    url = "/zh/blog/"
+    weight = 10
+  [[menu.main]]
+    identifier = "book"
+    name = "书籍"
+    url = "/zh/book/"
+    weight = 20
+  [[menu.main]]
+    identifier = "notice"
+    name = "公告"
+    url = "/zh/notice/"
+    weight = 30
+  [[menu.main]]
+    identifier = "podcast"
+    name = "播客"
+    url = "/zh/podcast/"
+    weight = 40
+
+[permalinks]
+  zh-blog   = "/zh/blog/:slug/"
+  zh-book   = "/zh/book/:slug/"
+  zh-notice = "/zh/notice/:slug/"
+  zh-podcast= "/zh/podcast/:slug/"

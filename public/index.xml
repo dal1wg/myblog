@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>dalewang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on dalewang</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 22:04:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Apr 2026 23:54:09 +0800</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 21 Apr 2026 22:04:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
+      <title>My First Notice</title>
+      <link>https://example.org/zh/notice/e644c2260e87d44655f3a525c54b5618/</link>
+      <pubDate>Tue, 21 Apr 2026 23:54:09 +0800</pubDate>
+      <guid>https://example.org/zh/notice/e644c2260e87d44655f3a525c54b5618/</guid>
+      <description>&lt;p&gt;这里写notice。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Book</title>
+      <link>https://example.org/zh/book/7f98cdf59f27c184fdd747572f90c7da/</link>
+      <pubDate>Tue, 21 Apr 2026 23:49:10 +0800</pubDate>
+      <guid>https://example.org/zh/book/7f98cdf59f27c184fdd747572f90c7da/</guid>
+      <description>&lt;p&gt;这里写书籍的介绍或笔记。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My New Blog</title>
+      <link>https://example.org/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</link>
+      <pubDate>Tue, 21 Apr 2026 23:46:59 +0800</pubDate>
+      <guid>https://example.org/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</guid>
+      <description>&lt;p&gt;这里写博客。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

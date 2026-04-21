@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>博客文章 on dalewang</title>
-    <link>https://example.org/zh/blog/</link>
+    <link>http://117.72.145.20/zh/blog/</link>
     <description>Recent content in 博客文章 on dalewang</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Tue, 21 Apr 2026 23:46:59 +0800</lastBuildDate>
-    <atom:link href="https://example.org/zh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://117.72.145.20/zh/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My New Blog</title>
-      <link>https://example.org/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</link>
+      <link>http://117.72.145.20/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</link>
       <pubDate>Tue, 21 Apr 2026 23:46:59 +0800</pubDate>
-      <guid>https://example.org/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</guid>
+      <guid>http://117.72.145.20/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</guid>
       <description>&lt;p&gt;这里写博客。&lt;/p&gt;</description>
     </item>
   </channel>

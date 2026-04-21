@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>http://117.72.145.20/</loc>
     <lastmod>2026-04-21T23:54:09+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/notice/e644c2260e87d44655f3a525c54b5618/</loc>
+    <loc>http://117.72.145.20/zh/notice/e644c2260e87d44655f3a525c54b5618/</loc>
     <lastmod>2026-04-21T23:54:09+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/</loc>
+    <loc>http://117.72.145.20/zh/</loc>
     <lastmod>2026-04-21T23:54:09+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/notice/</loc>
+    <loc>http://117.72.145.20/zh/notice/</loc>
     <lastmod>2026-04-21T23:54:09+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/book/7f98cdf59f27c184fdd747572f90c7da/</loc>
+    <loc>http://117.72.145.20/zh/book/7f98cdf59f27c184fdd747572f90c7da/</loc>
     <lastmod>2026-04-21T23:49:10+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/book/</loc>
+    <loc>http://117.72.145.20/zh/book/</loc>
     <lastmod>2026-04-21T23:49:10+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</loc>
+    <loc>http://117.72.145.20/zh/blog/e0a3db9ffd3a8b740dab0e0a8487d49e/</loc>
     <lastmod>2026-04-21T23:46:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/zh/blog/</loc>
+    <loc>http://117.72.145.20/zh/blog/</loc>
     <lastmod>2026-04-21T23:46:59+08:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://117.72.145.20/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://117.72.145.20/tags/</loc>
   </url><url>
-    <loc>https://example.org/zh/podcast/</loc>
+    <loc>http://117.72.145.20/zh/podcast/</loc>
   </url>
 </urlset>

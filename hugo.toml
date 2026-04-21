@@ -1,5 +1,5 @@
-baseURL = 'http://117.72.145.20'
-locale = 'en-us'
+baseURL = 'http://117.72.145.20'   # 注意：需要 http:// 前缀
+languageCode = 'zh-CN'
 title = 'dalewang'
 theme = "PaperMod"
 defaultContentLanguage = "zh"
@@ -9,28 +9,24 @@ defaultContentLanguage = "zh"
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
     name = "博客"
-    url = "/zh/blog/"
+    url = "/blog/"
     weight = 10
   [[menu.main]]
-    identifier = "book"
     name = "书籍"
-    url = "/zh/book/"
+    url = "/book/"
     weight = 20
   [[menu.main]]
-    identifier = "notice"
     name = "公告"
-    url = "/zh/notice/"
+    url = "/notice/"
     weight = 30
   [[menu.main]]
-    identifier = "podcast"
     name = "播客"
-    url = "/zh/podcast/"
+    url = "/podcast/"
     weight = 40
 
 [permalinks]
-  zh-blog   = "/zh/blog/:slug/"
-  zh-book   = "/zh/book/:slug/"
-  zh-notice = "/zh/notice/:slug/"
-  zh-podcast= "/zh/podcast/:slug/"
+  zh-blog   = "/blog/:slug/"
+  zh-book   = "/book/:slug/"
+  zh-notice = "/notice/:slug/"
+  zh-podcast= "/podcast/:slug/"

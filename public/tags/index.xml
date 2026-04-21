@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on dalewang</title>
-    <link>https://example.org/tags/</link>
+    <link>http://117.72.145.20/tags/</link>
     <description>Recent content in Tags on dalewang</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <atom:link href="http://117.72.145.20/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
